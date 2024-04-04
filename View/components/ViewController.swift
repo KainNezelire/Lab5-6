@@ -38,7 +38,6 @@ extension ViewController: VCDelegate{
 }
 
 extension ViewController: FourthViewControllerDelegate {
-    // Реализация метода делегата для очистки данных
     func clearData() {
         textLabel.text = ""
     }
